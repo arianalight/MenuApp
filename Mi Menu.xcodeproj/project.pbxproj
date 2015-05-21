@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA2F53171B0E63CB00CDD562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F53161B0E63CB00CDD562 /* AppDelegate.swift */; };
+		FA2F53191B0E63CB00CDD562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F53181B0E63CB00CDD562 /* ViewController.swift */; };
+		FA2F531C1B0E63CB00CDD562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2F531A1B0E63CB00CDD562 /* Main.storyboard */; };
+		FA2F531E1B0E63CB00CDD562 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F531D1B0E63CB00CDD562 /* Images.xcassets */; };
+		FA2F53211B0E63CB00CDD562 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2F531F1B0E63CB00CDD562 /* LaunchScreen.xib */; };
+		FA2F532D1B0E63CB00CDD562 /* Mi_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F532C1B0E63CB00CDD562 /* Mi_MenuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA2F53271B0E63CB00CDD562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA2F53091B0E63CB00CDD562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2F53101B0E63CB00CDD562;
+			remoteInfo = "Mi Menu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA2F53111B0E63CB00CDD562 /* Mi Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mi Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F53151B0E63CB00CDD562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F53161B0E63CB00CDD562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA2F53181B0E63CB00CDD562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA2F531B1B0E63CB00CDD562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2F531D1B0E63CB00CDD562 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA2F53201B0E63CB00CDD562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FA2F53261B0E63CB00CDD562 /* Mi MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2F532B1B0E63CB00CDD562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2F532C1B0E63CB00CDD562 /* Mi_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_MenuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2F530E1B0E63CB00CDD562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F53231B0E63CB00CDD562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA2F53081B0E63CB00CDD562 = {
+			isa = PBXGroup;
+			children = (
+				FA2F53131B0E63CB00CDD562 /* Mi Menu */,
+				FA2F53291B0E63CB00CDD562 /* Mi MenuTests */,
+				FA2F53121B0E63CB00CDD562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2F53121B0E63CB00CDD562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F53111B0E63CB00CDD562 /* Mi Menu.app */,
+				FA2F53261B0E63CB00CDD562 /* Mi MenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2F53131B0E63CB00CDD562 /* Mi Menu */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F53161B0E63CB00CDD562 /* AppDelegate.swift */,
+				FA2F53181B0E63CB00CDD562 /* ViewController.swift */,
+				FA2F531A1B0E63CB00CDD562 /* Main.storyboard */,
+				FA2F531D1B0E63CB00CDD562 /* Images.xcassets */,
+				FA2F531F1B0E63CB00CDD562 /* LaunchScreen.xib */,
+				FA2F53141B0E63CB00CDD562 /* Supporting Files */,
+			);
+			path = "Mi Menu";
+			sourceTree = "<group>";
+		};
+		FA2F53141B0E63CB00CDD562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F53151B0E63CB00CDD562 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA2F53291B0E63CB00CDD562 /* Mi MenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F532C1B0E63CB00CDD562 /* Mi_MenuTests.swift */,
+				FA2F532A1B0E63CB00CDD562 /* Supporting Files */,
+			);
+			path = "Mi MenuTests";
+			sourceTree = "<group>";
+		};
+		FA2F532A1B0E63CB00CDD562 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA2F532B1B0E63CB00CDD562 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2F53101B0E63CB00CDD562 /* Mi Menu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F53301B0E63CB00CDD562 /* Build configuration list for PBXNativeTarget "Mi Menu" */;
+			buildPhases = (
+				FA2F530D1B0E63CB00CDD562 /* Sources */,
+				FA2F530E1B0E63CB00CDD562 /* Frameworks */,
+				FA2F530F1B0E63CB00CDD562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mi Menu";
+			productName = "Mi Menu";
+			productReference = FA2F53111B0E63CB00CDD562 /* Mi Menu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA2F53251B0E63CB00CDD562 /* Mi MenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2F53331B0E63CB00CDD562 /* Build configuration list for PBXNativeTarget "Mi MenuTests" */;
+			buildPhases = (
+				FA2F53221B0E63CB00CDD562 /* Sources */,
+				FA2F53231B0E63CB00CDD562 /* Frameworks */,
+				FA2F53241B0E63CB00CDD562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2F53281B0E63CB00CDD562 /* PBXTargetDependency */,
+			);
+			name = "Mi MenuTests";
+			productName = "Mi MenuTests";
+			productReference = FA2F53261B0E63CB00CDD562 /* Mi MenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA2F53091B0E63CB00CDD562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ariana Light";
+				TargetAttributes = {
+					FA2F53101B0E63CB00CDD562 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					FA2F53251B0E63CB00CDD562 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = FA2F53101B0E63CB00CDD562;
+					};
+				};
+			};
+			buildConfigurationList = FA2F530C1B0E63CB00CDD562 /* Build configuration list for PBXProject "Mi Menu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA2F53081B0E63CB00CDD562;
+			productRefGroup = FA2F53121B0E63CB00CDD562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2F53101B0E63CB00CDD562 /* Mi Menu */,
+				FA2F53251B0E63CB00CDD562 /* Mi MenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2F530F1B0E63CB00CDD562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F531C1B0E63CB00CDD562 /* Main.storyboard in Resources */,
+				FA2F53211B0E63CB00CDD562 /* LaunchScreen.xib in Resources */,
+				FA2F531E1B0E63CB00CDD562 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F53241B0E63CB00CDD562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2F530D1B0E63CB00CDD562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F53191B0E63CB00CDD562 /* ViewController.swift in Sources */,
+				FA2F53171B0E63CB00CDD562 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2F53221B0E63CB00CDD562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2F532D1B0E63CB00CDD562 /* Mi_MenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA2F53281B0E63CB00CDD562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2F53101B0E63CB00CDD562 /* Mi Menu */;
+			targetProxy = FA2F53271B0E63CB00CDD562 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA2F531A1B0E63CB00CDD562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2F531B1B0E63CB00CDD562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2F531F1B0E63CB00CDD562 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2F53201B0E63CB00CDD562 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2F532E1B0E63CB00CDD562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA2F532F1B0E63CB00CDD562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2F53311B0E63CB00CDD562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA2F53321B0E63CB00CDD562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mi Menu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA2F53341B0E63CB00CDD562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mi MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Menu.app/Mi Menu";
+			};
+			name = Debug;
+		};
+		FA2F53351B0E63CB00CDD562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Mi MenuTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mi Menu.app/Mi Menu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2F530C1B0E63CB00CDD562 /* Build configuration list for PBXProject "Mi Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F532E1B0E63CB00CDD562 /* Debug */,
+				FA2F532F1B0E63CB00CDD562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2F53301B0E63CB00CDD562 /* Build configuration list for PBXNativeTarget "Mi Menu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F53311B0E63CB00CDD562 /* Debug */,
+				FA2F53321B0E63CB00CDD562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA2F53331B0E63CB00CDD562 /* Build configuration list for PBXNativeTarget "Mi MenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2F53341B0E63CB00CDD562 /* Debug */,
+				FA2F53351B0E63CB00CDD562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA2F53091B0E63CB00CDD562 /* Project object */;
+}
