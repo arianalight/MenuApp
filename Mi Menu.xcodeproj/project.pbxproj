@@ -13,6 +13,14 @@
 		FA2F531E1B0E63CB00CDD562 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2F531D1B0E63CB00CDD562 /* Images.xcassets */; };
 		FA2F53211B0E63CB00CDD562 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2F531F1B0E63CB00CDD562 /* LaunchScreen.xib */; };
 		FA2F532D1B0E63CB00CDD562 /* Mi_MenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2F532C1B0E63CB00CDD562 /* Mi_MenuTests.swift */; };
+		FA2F53371B0E64AD00CDD562 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA2F53361B0E64AD00CDD562 /* image1.jpg */; };
+		FA8BC7151B61F40C00CC3270 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = FA8BC7141B61F40C00CC3270 /* image5.png */; };
+		FA8BC7171B62740300CC3270 /* image6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8BC7161B62740300CC3270 /* image6.jpg */; };
+		FA8BC7191B62746100CC3270 /* plateimage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8BC7181B62746100CC3270 /* plateimage.jpg */; };
+		FAA5A75D1B61E9FF002433AF /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A75C1B61E9FF002433AF /* image2.jpg */; };
+		FAA5A75F1B61EB6A002433AF /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A75E1B61EB6A002433AF /* image3.jpg */; };
+		FAA5A7611B61EC89002433AF /* image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAA5A7601B61EC89002433AF /* image4.jpg */; };
+		FAAB34581B6277370085B563 /* image7.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAB34571B6277370085B563 /* image7.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,14 @@
 		FA2F53261B0E63CB00CDD562 /* Mi MenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mi MenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2F532B1B0E63CB00CDD562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2F532C1B0E63CB00CDD562 /* Mi_MenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mi_MenuTests.swift; sourceTree = "<group>"; };
+		FA2F53361B0E64AD00CDD562 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image1.jpg; path = ../../../Music/Logic/image1.jpg; sourceTree = "<group>"; };
+		FA8BC7141B61F40C00CC3270 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image5.png; path = ../../../Documents/image5.png; sourceTree = "<group>"; };
+		FA8BC7161B62740300CC3270 /* image6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image6.jpg; path = ../../../Documents/image6.jpg; sourceTree = "<group>"; };
+		FA8BC7181B62746100CC3270 /* plateimage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plateimage.jpg; path = ../../../Documents/plateimage.jpg; sourceTree = "<group>"; };
+		FAA5A75C1B61E9FF002433AF /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image2.jpg; path = ../../../Documents/image2.jpg; sourceTree = "<group>"; };
+		FAA5A75E1B61EB6A002433AF /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image3.jpg; path = ../../../Documents/image3.jpg; sourceTree = "<group>"; };
+		FAA5A7601B61EC89002433AF /* image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image4.jpg; path = ../../../Documents/image4.jpg; sourceTree = "<group>"; };
+		FAAB34571B6277370085B563 /* image7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image7.png; path = ../../../Documents/image7.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,14 @@
 		FA2F53131B0E63CB00CDD562 /* Mi Menu */ = {
 			isa = PBXGroup;
 			children = (
+				FAAB34571B6277370085B563 /* image7.png */,
+				FA8BC7181B62746100CC3270 /* plateimage.jpg */,
+				FA8BC7161B62740300CC3270 /* image6.jpg */,
+				FA8BC7141B61F40C00CC3270 /* image5.png */,
+				FAA5A7601B61EC89002433AF /* image4.jpg */,
+				FAA5A75E1B61EB6A002433AF /* image3.jpg */,
+				FAA5A75C1B61E9FF002433AF /* image2.jpg */,
+				FA2F53361B0E64AD00CDD562 /* image1.jpg */,
 				FA2F53161B0E63CB00CDD562 /* AppDelegate.swift */,
 				FA2F53181B0E63CB00CDD562 /* ViewController.swift */,
 				FA2F531A1B0E63CB00CDD562 /* Main.storyboard */,
@@ -161,6 +185,11 @@
 				TargetAttributes = {
 					FA2F53101B0E63CB00CDD562 = {
 						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					FA2F53251B0E63CB00CDD562 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -193,6 +222,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2F531C1B0E63CB00CDD562 /* Main.storyboard in Resources */,
+				FAA5A75D1B61E9FF002433AF /* image2.jpg in Resources */,
+				FA8BC7191B62746100CC3270 /* plateimage.jpg in Resources */,
+				FA2F53371B0E64AD00CDD562 /* image1.jpg in Resources */,
+				FAA5A75F1B61EB6A002433AF /* image3.jpg in Resources */,
+				FAA5A7611B61EC89002433AF /* image4.jpg in Resources */,
+				FA8BC7151B61F40C00CC3270 /* image5.png in Resources */,
+				FA8BC7171B62740300CC3270 /* image6.jpg in Resources */,
+				FAAB34581B6277370085B563 /* image7.png in Resources */,
 				FA2F53211B0E63CB00CDD562 /* LaunchScreen.xib in Resources */,
 				FA2F531E1B0E63CB00CDD562 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +448,7 @@
 				FA2F53321B0E63CB00CDD562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA2F53331B0E63CB00CDD562 /* Build configuration list for PBXNativeTarget "Mi MenuTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +457,7 @@
 				FA2F53351B0E63CB00CDD562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
